@@ -1,0 +1,7 @@
+docker run -p 25000:5000 -t -v "/Users/jomi/Google Drive/das/ia/code-git/pddl/jars":/x azathoth/pddl
+
+
+docker exec -it  0f9a5badcb0a /root/planners/Metric-FF/ff -o /x/rsc_domain  -f /x/problem-jars.pddl
+
+
+docker run -p 25000:5000 -t -v "C:/Users\kaike.carvalho/OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)/Desktop/UFSC/Inteligência Artificial/Trabalho01":/x azathoth/pddl

@@ -1,0 +1,163 @@
+PS C:\Users\kaike.carvalho\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\Desktop\UFSC\Inteligência Artificial\Trabalho01> java -jar "c:\Users\kaike.carvalho\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\Desktop\UFSC\Inteligência Artificial\Trabalho01\PDDL4J-v3.8.3\pddl4j-3.8.3.jar" -o C:\Users\KAIKE~1.CAR\AppData\Local\Temp\domain--21472-p3d0VFRDXT9m-.pddl -f C:\Users\KAIKE~1.CAR\AppData\Local\Temp\problem--21472-3bpYPWZ8bVj0-.pddl -p 2
+
+parsing domain file "domain--21472-p3d0VFRDXT9m-.pddl" done successfully
+parsing problem file "problem--21472-3bpYPWZ8bVj0-.pddl" done successfully
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+
+encoding problem done successfully (1384 ops, 296 facts)
+* starting enforced hill climbing
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+* enforced hill climbing succeeded
+* starting greedy best first search anytime (optimized)
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+* greedy best first search anytime failed
+
+found plan as follows:
+
+000: (                             robot_move robot1 unit1 silo) [1]
+001: (               pickup_pallet_on_unit robot1 silo pallet26) [1]
+002: (                             robot_move robot1 silo conv1) [1]
+003: (    drop_pallet_on_conveyor robot1 conv1 pallet26 bottle1) [1]
+004: (conveyor_load_pallet_in_unit conv1 unit1 pallet26 bottle1) [1]
+005: (          unit_execute_operation unit1 op10 op20 pallet26) [1]
+006: (                            robot_move robot1 conv1 unit1) [1]
+007: (              pickup_pallet_on_unit robot1 unit1 pallet26) [1]
+008: (                            robot_move robot1 unit1 conv3) [1]
+009: (    drop_pallet_on_conveyor robot1 conv3 pallet26 bottle1) [1]
+010: (                            robot_move robot2 unit2 unit1) [1]
+011: (conveyor_load_pallet_in_unit conv3 unit2 pallet26 bottle1) [1]
+012: (                            robot_move robot2 unit1 unit2) [1]
+013: (          unit_execute_operation unit2 op20 op30 pallet26) [1]
+014: (                            robot_move robot2 unit2 unit1) [1]
+015: (          unit_execute_operation unit2 op30 stop pallet26) [1]
+016: (                     pallet_completed stop pallet26 unit2) [1]
+017: (                             robot_move robot1 conv3 silo) [1]
+018: (               pickup_pallet_on_unit robot1 silo pallet27) [1]
+019: (                             robot_move robot1 silo conv1) [1]
+020: (    drop_pallet_on_conveyor robot1 conv1 pallet27 bottle1) [1]
+021: (conveyor_load_pallet_in_unit conv1 unit1 pallet27 bottle1) [1]
+022: (          unit_execute_operation unit1 op10 op20 pallet27) [1]
+023: (              pickup_pallet_on_unit robot2 unit1 pallet27) [1]
+024: (                            robot_move robot2 unit1 conv8) [1]
+025: (    drop_pallet_on_conveyor robot2 conv8 pallet27 bottle1) [1]
+026: (conveyor_load_pallet_in_unit conv8 unit4 pallet27 bottle1) [1]
+027: (                            robot_move robot2 conv8 unit4) [1]
+028: (          unit_execute_operation unit4 op20 op30 pallet27) [1]
+029: (                            robot_move robot2 unit4 unit1) [1]
+030: (          unit_execute_operation unit4 op30 stop pallet27) [1]
+031: (                     pallet_completed stop pallet27 unit4) [1]
+032: (                             robot_move robot1 conv1 silo) [1]
+033: (               pickup_pallet_on_unit robot1 silo pallet28) [1]
+034: (                             robot_move robot1 silo conv3) [1]
+035: (    drop_pallet_on_conveyor robot1 conv3 pallet28 bottle2) [1]
+036: (conveyor_load_pallet_in_unit conv3 unit2 pallet28 bottle2) [1]
+037: (                            robot_move robot2 unit1 unit2) [1]
+038: (          unit_execute_operation unit2 op20 op30 pallet28) [1]
+039: (                            robot_move robot2 unit2 unit1) [1]
+040: (          unit_execute_operation unit2 op30 stop pallet28) [1]
+041: (                     pallet_completed stop pallet28 unit2) [1]
+042: (                             robot_move robot1 conv3 silo) [1]
+043: (               pickup_pallet_on_unit robot1 silo pallet29) [1]
+044: (                             robot_move robot1 silo conv3) [1]
+045: (    drop_pallet_on_conveyor robot1 conv3 pallet29 bottle2) [1]
+046: (conveyor_load_pallet_in_unit conv3 unit2 pallet29 bottle2) [1]
+047: (                            robot_move robot2 unit1 unit2) [1]
+048: (          unit_execute_operation unit2 op20 op30 pallet29) [1]
+049: (                            robot_move robot2 unit2 unit1) [1]
+050: (          unit_execute_operation unit2 op30 stop pallet29) [1]
+051: (                     pallet_completed stop pallet29 unit2) [1]
+052: (                             robot_move robot1 conv3 silo) [1]
+053: (               pickup_pallet_on_unit robot1 silo pallet30) [1]
+054: (                             robot_move robot1 silo conv1) [1]
+055: (    drop_pallet_on_conveyor robot1 conv1 pallet30 bottle3) [1]
+056: (conveyor_load_pallet_in_unit conv1 unit1 pallet30 bottle3) [1]
+057: (          unit_execute_operation unit1 op10 op20 pallet30) [1]
+058: (              pickup_pallet_on_unit robot2 unit1 pallet30) [1]
+059: (                            robot_move robot2 unit1 conv4) [1]
+060: (    drop_pallet_on_conveyor robot2 conv4 pallet30 bottle3) [1]
+061: (conveyor_load_pallet_in_unit conv4 unit2 pallet30 bottle3) [1]
+062: (                            robot_move robot2 conv4 unit2) [1]
+063: (          unit_execute_operation unit2 op20 op30 pallet30) [1]
+064: (                            robot_move robot2 unit2 unit1) [1]
+065: (          unit_execute_operation unit2 op30 stop pallet30) [1]
+066: (                     pallet_completed stop pallet30 unit2) [1]
+067: (                             robot_move robot1 conv1 silo) [1]
+068: (               pickup_pallet_on_unit robot1 silo pallet31) [1]
+069: (                             robot_move robot1 silo conv1) [1]
+070: (    drop_pallet_on_conveyor robot1 conv1 pallet31 bottle1) [1]
+071: (conveyor_load_pallet_in_unit conv1 unit1 pallet31 bottle1) [1]
+072: (          unit_execute_operation unit1 op10 op20 pallet31) [1]
+073: (              pickup_pallet_on_unit robot2 unit1 pallet31) [1]
+074: (                            robot_move robot2 unit1 conv3) [1]
+075: (    drop_pallet_on_conveyor robot2 conv3 pallet31 bottle1) [1]
+076: (                             robot_move robot1 conv1 silo) [1]
+077: (conveyor_load_pallet_in_unit conv3 unit2 pallet31 bottle1) [1]
+078: (               pickup_pallet_on_unit robot1 silo pallet32) [1]
+079: (                             robot_move robot1 silo conv1) [1]
+080: (                            robot_move robot1 conv1 conv8) [1]
+081: (          unit_execute_operation unit2 op20 op30 pallet31) [1]
+082: (          unit_execute_operation unit2 op30 stop pallet31) [1]
+083: (                     pallet_completed stop pallet31 unit2) [1]
+084: (    drop_pallet_on_conveyor robot1 conv8 pallet32 bottle1) [1]
+085: (                            robot_move robot2 conv3 unit4) [1]
+086: (conveyor_load_pallet_in_unit conv8 unit4 pallet32 bottle1) [1]
+087: (                             robot_move robot1 conv8 silo) [1]
+088: (               pickup_pallet_on_unit robot1 silo pallet33) [1]
+089: (                             robot_move robot1 silo conv8) [1]
+090: (    drop_pallet_on_conveyor robot1 conv8 pallet33 bottle4) [1]
+091: (              pickup_pallet_on_unit robot2 unit4 pallet32) [1]
+092: (                            robot_move robot2 unit4 conv1) [1]
+093: (conveyor_load_pallet_in_unit conv8 unit4 pallet33 bottle4) [1]
+094: (          unit_execute_operation unit4 op30 stop pallet33) [1]
+095: (                     pallet_completed stop pallet33 unit4) [1]
+096: (    drop_pallet_on_conveyor robot2 conv1 pallet32 bottle1) [1]
+097: (                            robot_move robot2 conv1 unit1) [1]
+098: (conveyor_load_pallet_in_unit conv1 unit1 pallet32 bottle1) [1]
+099: (          unit_execute_operation unit1 op10 op20 pallet32) [1]
+100: (              pickup_pallet_on_unit robot2 unit1 pallet32) [1]
+101: (                            robot_move robot2 unit1 conv3) [1]
+102: (    drop_pallet_on_conveyor robot2 conv3 pallet32 bottle1) [1]
+103: (conveyor_load_pallet_in_unit conv3 unit2 pallet32 bottle1) [1]
+104: (          unit_execute_operation unit2 op20 op30 pallet32) [1]
+105: (          unit_execute_operation unit2 op30 stop pallet32) [1]
+106: (                     pallet_completed stop pallet32 unit2) [1]
+107: (                             robot_move robot1 conv8 silo) [1]
+108: (               pickup_pallet_on_unit robot1 silo pallet34) [1]
+109: (                             robot_move robot1 silo conv8) [1]
+110: (    drop_pallet_on_conveyor robot1 conv8 pallet34 bottle4) [1]
+111: (                            robot_move robot2 conv3 unit4) [1]
+112: (conveyor_load_pallet_in_unit conv8 unit4 pallet34 bottle4) [1]
+113: (                            robot_move robot2 unit4 unit1) [1]
+114: (          unit_execute_operation unit4 op30 stop pallet34) [1]
+115: (                     pallet_completed stop pallet34 unit4) [1]
+116: (                             robot_move robot1 conv8 silo) [1]
+117: (               pickup_pallet_on_unit robot1 silo pallet35) [1]
+118: (                             robot_move robot1 silo conv8) [1]
+119: (    drop_pallet_on_conveyor robot1 conv8 pallet35 bottle5) [1]
+120: (                            robot_move robot2 unit1 unit4) [1]
+121: (conveyor_load_pallet_in_unit conv8 unit4 pallet35 bottle5) [1]
+122: (                            robot_move robot2 unit4 unit1) [1]
+123: (          unit_execute_operation unit4 op30 stop pallet35) [1]
+124: (                     pallet_completed stop pallet35 unit4) [1]
+125: (                             robot_move robot1 conv8 silo) [1]
+126: (               pickup_pallet_on_unit robot1 silo pallet36) [1]
+127: (                             robot_move robot1 silo conv8) [1]
+128: (    drop_pallet_on_conveyor robot1 conv8 pallet36 bottle5) [1]
+129: (conveyor_load_pallet_in_unit conv8 unit4 pallet36 bottle5) [1]
+130: (          unit_execute_operation unit4 op30 stop pallet36) [1]
+131: (                     pallet_completed stop pallet36 unit4) [1]
+
+plan total cost: 132,00
+
+
+time spent:       0,04 seconds parsing
+                  0,09 seconds encoding
+                 19,18 seconds searching
+                 19,31 seconds total time
+
+memory used:     -0,00 MBytes for problem representation
+                 -0,00 MBytes for searching
+                 -0,00 MBytes total

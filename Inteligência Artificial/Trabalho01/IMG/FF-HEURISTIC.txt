@@ -1,0 +1,23 @@
+PS C:\Users\kaike.carvalho\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\Desktop\UFSC\Inteligência Artificial\Trabalho01> java -jar "c:\Users\kaike.carvalho\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\Desktop\UFSC\Inteligência Artificial\Trabalho01\PDDL4J-v3.8.3\pddl4j-3.8.3.jar" -o C:\Users\KAIKE~1.CAR\AppData\Local\Temp\domain--21472-2Pcm6nXJvmun-.pddl -f C:\Users\KAIKE~1.CAR\AppData\Local\Temp\problem--21472-rCjzbBjrLoyE-.pddl -u 0
+
+parsing domain file "domain--21472-2Pcm6nXJvmun-.pddl" done successfully  
+parsing problem file "problem--21472-rCjzbBjrLoyE-.pddl" done successfully
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+
+encoding problem done successfully (1384 ops, 296 facts)
+* starting A*
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+java.lang.IllegalStateException: Instrumentation environment not initialised.
+* A* failed
+
+no plan found
+
+
+time spent:       0,03 seconds parsing
+                  0,10 seconds encoding
+                600,00 seconds searching
+                600,14 seconds total time
+
+memory used:     -0,00 MBytes for problem representation
+                 -0,00 MBytes for searching
+                 -0,00 MBytes total

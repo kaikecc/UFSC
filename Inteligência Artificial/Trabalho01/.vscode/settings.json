@@ -6,6 +6,5 @@
             "title": "http://solver.planning.domains/solve #2",
             "canConfigure": true
         }
-    ],
-    "pddl.selectedPlanner": "http://solver.planning.domains/solve #2"
+    ]
 }

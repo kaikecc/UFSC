@@ -5,3 +5,7 @@ entre a definição de um domínio (espaço de configuração) e o problema real
 criar uma linguagem de programação destinada a resolver problemas desta natureza e que pudesse ser utilizado 
 ferramentas de Inteligência Artificial (IA) para traçar melhores caminho para uma solução, tornaria mais fácil 
 comparar desempenhos desses solvers (solucionadores) para determinados tipos de problemas. 
+
+## Exemplo
+
+Suponha que você trabalhe em uma fábrica de envase de lubrificantes e que receba uma instrução

@@ -8,4 +8,4 @@ comparar desempenhos desses solvers (solucionadores) para determinados tipos de 
 
 ## Exemplo
 
-Suponha que você trabalhe em uma fábrica de envase de lubrificantes e que receba uma instrução
+Suponha que você trabalhe em uma fábrica de envase de lubrificantes e que receba uma instrução de realizar uma sequência de operações em determinados paletes que contém garrafas com lubrificantes.
